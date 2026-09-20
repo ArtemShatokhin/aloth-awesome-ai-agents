@@ -111,6 +111,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
 
 ### Browser Agents
+- [agent-browser](https://github.com/vercel-labs/agent-browser) — Vercel Labs' native Rust browser automation CLI for AI agents. Accessibility-tree snapshots with stable `@ref` targets, traditional selectors, annotated screenshots, and clicks that fail early when a banner or modal covers the target. Installs via npm, Homebrew, or Cargo; no Playwright or Node.js needed at runtime. Apache-2.0.
 - [Browser Use](https://github.com/browser-use/browser-use) — Control browsers with AI agents. Most popular browser automation framework.
 - [BrowserOS](https://github.com/browseros-ai/BrowserOS) — Open-source agentic browser and alternative to ChatGPT Atlas, Perplexity Comet, and Dia. Runs agents locally against your own browsing session. AGPL-3.0.
 - [BrowserSkill](https://github.com/Tencent/BrowserSkill) — Tencent's CLI and browser extension that lets AI agents drive your real, logged-in browser without interrupting your work. Works with any shell-capable agent (Claude Code, Codex, Cursor, OpenClaw). MIT.
@@ -159,6 +160,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 
 
 ### Agent Skills & Tools
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Addy Osmani's production-grade engineering skills for coding agents, mapped to the development lifecycle through 9 slash commands (`/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship`). Skills also auto-activate by task; installs into 70+ agents via the open skills CLI. MIT.
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local-first code intelligence graph for MCP and CLI. Builds a persistent Tree-sitter map of the codebase so coding agents read only the "blast radius" of a change, with benchmarked ~82x median token reduction on review tasks across 30+ languages. Auto-configures Claude Code, Codex, Cursor, Gemini CLI, Kiro, and Copilot. MIT.
 - [codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph for coding agents (Claude Code, Codex, Cursor, Gemini CLI). Fewer tokens, fewer tool calls, 100% local.
 - [dotnet/skills](https://github.com/dotnet/skills) — Microsoft .NET team's curated skills and custom agents for AI coding agents. Core .NET, EF data access, diagnostics, MSBuild, and NuGet plugins.
@@ -258,6 +260,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection.
 - [repo-forensics](https://github.com/alexgreensh/repo-forensics) — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
 - [Safe RLHF](https://github.com/PKU-Alignment/safe-rlhf) — Constrained value alignment via safe reinforcement learning from human feedback.
+- [SkillSpector](https://github.com/NVIDIA/SkillSpector) — NVIDIA's security scanner for agent skills: answers whether a skill is safe to install before you install it. 71 vulnerability patterns across 17 categories (prompt injection, data exfiltration, supply chain, MCP tool poisoning), static plus optional LLM semantic analysis, live OSV.dev CVE lookups, and terminal/JSON/Markdown/SARIF reports. Part of the NVIDIA Verified Skills pipeline. Apache-2.0.
 
 ## Research Papers
 
