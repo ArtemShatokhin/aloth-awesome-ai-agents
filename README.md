@@ -46,12 +46,13 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Multi-agent framework that mimics a software company with roles (PM, architect, engineer).
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Framework for building, orchestrating and deploying multi-agent workflows (Python + .NET).
 - [MiroFish](https://github.com/666ghj/MiroFish) — Concise and universal swarm intelligence engine for forecasting and prediction. Upload seed material, describe goals in natural language, get a detailed prediction report and an interactive simulation.
+- [Octochains](https://github.com/ahmadvh/octochains) — Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.
 - [Omnigent](https://github.com/omnigent-ai/omnigent) — Open-source meta-harness that orchestrates Claude Code, Codex, Cursor, OpenCode, Hermes, and Pi under one policy/sandboxing layer. Cloud sandboxes (Modal, Daytona, E2B, Kubernetes, Databricks), live multi-device session sharing, and YAML-defined sub-agents. Apache-2.0.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — OpenAI's production framework for multi-agent orchestration with handoffs and guardrails.
 - [Orkas](https://github.com/Orkas-AI/Orkas) — Open-source desktop workspace for coordinating specialist AI agents in parallel or sequence.
-- [Octochains](https://github.com/ahmadvh/octochains) — Parallel isolated multi-agent reasoning with centralized  aggregation for high-stakes decision-making.
-- [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
+- [Paperclip](https://github.com/paperclipai/paperclip) — Open-source, self-hosted control plane for running teams of AI agents like a company. Node.js server and React UI with a mixed human/agent org chart, goal-linked tasks, heartbeat scheduling, per-agent budgets, and approval gates. Bring your own agents (OpenClaw, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Pi, Hermes). 95K+ stars, MIT.
 - [QM](https://github.com/yc-software/qm) — Y Combinator's open-source multiplayer agent harness for companies. Personal and shared scopes, Slack + web UI, org-level policy/security posture, shared skills, crons, and durable sandboxes. Pluggable coding loops (Pi, OpenCode, Codex, Claude Code). MIT.
+- [Ruflo](https://github.com/ruvnet/ruflo) — Agent orchestration platform optimized for Claude. Features self-learning swarms, distributed intelligence, RAG integration, and native Claude Code/Codex integration. Formerly claude-flow.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for AI orchestration. Plugins, planners, and memory.
 - [Strands Agents](https://github.com/strands-agents/harness-sdk) — AWS's model-driven, open-source SDK for building production AI agents in Python and TypeScript. Any model, any cloud, with MCP support and 23M+ monthly PyPI downloads. Apache-2.0.
 - [Swarm](https://github.com/openai/swarm) — OpenAI's lightweight multi-agent framework (educational).
@@ -107,9 +108,10 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's open-source self-improving personal AI agent. Closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), MCP integration, and cron scheduling.
 - [Mercury Agent](https://github.com/cosmicstack-labs/mercury-agent) — Soul-driven personal AI agent with permission-hardened tools, token budgets, and multi-channel access (CLI or Telegram). MIT.
 - [nanobot](https://github.com/HKUDS/nanobot) — HKU Data Science Lab's ultra-lightweight personal AI agent. Keeps the core small and readable while shipping a full workbench: WebUI, sustained goals, MCP, image generation, multi-channel (Telegram, Signal, Matrix), and multi-provider model routing. Released v0.2.1 (June 2026).
+- [Octop](https://github.com/TencentCloud/Octop) — Tencent Cloud's self-hosted, multi-user AI assistant for households and small teams. Each user gets a personal team of specialist agents behind one process: web dashboard, CLI, desktop apps, cron, and IM channels (Telegram, Discord, Feishu, DingTalk, WeChat, WeCom, QQ). MCP connectors, ACP delegation to Claude Code or OpenCode, tool approval, shell guardrails, and PII redaction. MIT, beta.
 - [OneBox](https://github.com/wangzhishou/OneBox) — Open-source Android personal AI agent driving 90+ in-app tools via natural language. Apache-2.0.
-- [OpenHuman](https://github.com/tinyhumansai/openhuman) — Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source personal AI agent with tool use, browser control, messaging integration, and persistent memory.
+- [OpenHuman](https://github.com/tinyhumansai/openhuman) — Local-first personal AI agent with 118 OAuth integrations, hierarchical memory tree, and TokenJuice compression. Runs entirely on-device.
 - [QwenPaw](https://github.com/agentscope-ai/QwenPaw) — Alibaba's Qwen-powered personal AI agent workstation. Local or cloud deployment, multi-agent collaboration with sub-agent spawning, extensible skill system, and broad channel support (DingTalk, Feishu, WeChat, Discord, Telegram). MIT.
 - [Trustclaw](https://github.com/ComposioHQ/trustclaw) — ComposioHQ's self-hostable personal AI agent with vector memory, native Composio tool integrations, and a Telegram front-end. MIT.
 
@@ -181,6 +183,7 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Agent skill and MCP server for X data workflows.
 
 ### Memory & State
+- [agentmemory](https://github.com/rohitg00/agentmemory) — Persistent cross-session memory for coding agents (Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, OpenCode, pi, Hermes, OpenClaw, or any MCP client). Hybrid BM25 + vector + graph retrieval over local SQLite with no external database; keyless mode or free on-device embeddings; reproducible LongMemEval-S harness. Apache-2.0.
 - [Busabase](https://github.com/busabase/busabase) — Open-source database and workspace for agents with persistent context and permission-aware, auditable ChangeRequests.
 - [claude-mem](https://github.com/thedotmack/claude-mem) — Cross-session persistent memory for AI coding agents. Captures session activity, compresses it with AI, and injects relevant context into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, and more. Apache-2.0.
 - [funes](https://github.com/huggingface/funes) — Durable, searchable memory of past agent sessions. Indexes Claude Code, Codex, pi, and Hermes; recall over MCP; publish as a Hugging Face dataset. Apache-2.0.
