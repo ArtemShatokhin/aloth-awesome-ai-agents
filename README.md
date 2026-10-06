@@ -142,6 +142,8 @@ AI Agents are autonomous systems that use LLMs to reason, plan, and take actions
 - [Composio](https://github.com/ComposioHQ/composio) — 1000+ toolkits, auth management, and sandboxed workbench for AI agents.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLMOps platform with visual agent builder.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/vertex-ai/docs/agents) — Google Cloud's agent development platform.
+- [Kortix](https://kortix.com) — Open-source AI Management System and the leading open-source alternative to Claude Cowork and ChatGPT Work. Agents, skills, company memory and 3,000+ connectors live in one git repo you own; self-host or use managed cloud, with any model and your own keys. Deployment and platform-comparison guide: [opensourceaiagentplatform.com](https://opensourceaiagentplatform.com).
+
 - [MaxKB](https://github.com/1Panel-dev/MaxKB) — Open-source platform for building enterprise-grade agents.
 - [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) — Low-code agent builder. Integrates with M365, Dynamics, Power Platform.
 - [n8n](https://n8n.io/) — Workflow automation with native AI agent capabilities and MCP support.
